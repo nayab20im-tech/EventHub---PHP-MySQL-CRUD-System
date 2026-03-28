@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+.main{
+    height: 90vh;
+    width: 100%;
+    background: url("6.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1{
+    height:7vh;
+    width:100%;
+    padding-top: 1%;
+    font-size: 1.2rem;
+}
+.dropbutton{
+    font-size: 20px;
+    color:white;
+    border:transparent;
+    background-color: transparent;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/*.dropdown-content a:hover {background-color: #ddd;}*/
+
+.dropdown-content a:hover {background-color:#2980B9}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #4E1511;
+    border:transparent;
+    padding:1.2% 0% 1.2% 4%;
+    padding-left: 5%;
+    color:white;
+}
+.li1{
+    flex-basis: 65%;
+    flex-shrink: 2px;
+}
+.li2{
+    flex-basis: 10%;
+}
+li a{
+    text-decoration: none;
+    color:white;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.div1 a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.div1 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.div1 a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+#div1 {
+    text-align: center;
+    color: white;
+}
+
+
+#div1 {
+    color: #A67C00;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 25vw;
+    font-size: 100px;
+    color: white;
+
+}
+
+#div2 {
+    color: white;
+    font-family: serif;
+    font-weight: lighter;
+
+}
+
+.flex-Container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.picsDetails {
+    width: 45%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.picsDetails1 {
+    width: 35%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.readmore {
+    height: 30%;
+    width: 40%;
+    border: 1;
+
+    border-style: ridge;
+    border-color: green;
+    text-align: center;
+    color: green;
+}
+
+.td1 {
+    border="1";
+    color: white;
+}
+
+.div4 {
+    color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#line {
+    width: 80%;
+    color: white;
+    text-align: left;
+    border-bottom: solid white;
+    border-bottom-width: 2px;
+    margin-left: 125px;
+}
+
+#Gov {
+    width: 80%;
+    font-family: sans-serif;
+    color: #A67C00;
+    justify-content: left;
+    margin-left: 67vw;
+    margin-bottom: 100px;
+    margin-top: 12px;
+}
+
+.outerdiv {
+    margin-left: 1%;
+    height: 9%;
+    width: 20%;
+    border: 1;
+    border-style: ridge;
+    border-color: lightgray;
+}
+
+.images {
+    width: 35%;
+    padding-left: 30%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.select {
+    margin-left: 30%;
+    color: white;
+    width: 20%px;
+    height: 15px;
+    border: none;
+}
+
+.outermostdiv {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-Container6 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+
+}
+
+.tablediv {
+    width: 100%;
+/*    height: 50%;*/
+    height: auto;
+    background-color: black;
+}
+
+#Pak2 {
+    margin-left: 70px;
+    color: #A67C00;
+    padding-bottom: 70px;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+
+#newdiv {
+    background-color: #A67C00;
+    height: 135px;
+    width: 100%;
+}
+
+#newdiv2 {
+    background-color: #A67C00;
+    height: 175px;
+    width: 100%;
+}
+
+.ss {
+    text-shadow:
+        0 0 7px #351616,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(154, 120, 7),
+        0 0 82px rgb(154, 120, 7),
+        0 0 92px rgb(154, 120, 7),
+        0 0 102px rgb(154, 120, 7),
+        0 0 151px rgb(154, 120, 7);
+}

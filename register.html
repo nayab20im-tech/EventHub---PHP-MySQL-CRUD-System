@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+	<style type="text/css">
+		.div1{
+    			height:7vh;
+    			width:100%;
+    			font-size: 1.2rem;
+		}
+		ul{
+    			display:flex;
+    			list-style-type: none;
+    			justify-content: space-evenly;
+    			align-items: stretch;
+    			flex-direction: row;
+    			flex-wrap: wrap;
+    			background-color: #4E1511;
+    			border:transparent;
+    			border-radius: 25px;
+    			padding:1.2% 0% 1.2% 4%;
+    			opacity: 0.8;
+    			padding-left: 5%;
+    			color:white;
+		}
+		.li1{
+    			flex-basis: 65%;
+    			flex-shrink: 2px;
+			}
+		.li2{
+   				 flex-basis: 10%;
+		}
+		li a{
+   				 text-decoration: none;
+    			color:white;
+		}
+		li a:hover{
+    			text-decoration: underline;
+		}
+		.dropbutton{
+			    font-size: 20px;
+			    color:white;
+			    border:transparent;
+			    background-color: transparent;
+		}
+		.dropdown{
+		    position: relative;
+		    display: inline-block;
+		}
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f1f1f1;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		.dropdown-content a {
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		}
+		.dropdown-content a:hover {background-color:#2980B9}
+
+		.dropdown:hover .dropdown-content {display: block;}
+
+		.dropdown:hover .dropbtn {background-color: #3e8e41;}
+		body{
+			background: url("event-management-services-1000x1000 (1).jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.div_2
+		{
+			width:30%;
+			height: 30vh;
+			margin-left: 35%;
+			padding-top: 2%;
+			padding-bottom: 5%;
+			margin-bottom: 3%;
+		}
+		form{
+			background-color: white;
+			opacity: 0.9;
+			height:80vh;
+			width:100%;
+			border:2px solid black;
+			border-radius: 25px 0px;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+      <div class="div1">
+      	<ul>
+      		<li class="li1"><a href="ajk.html">Home</a></li>
+      		<div class="dropdown">
+                <button class="dropbutton">Event</button>
+                <div class="dropdown-content">
+                    <a href = "third.html">View</a>
+                    <a href="register.html">Register</a>
+                </div>
+            </div>
+            </li>
+            <li><a href="Login.html">Login</a></li>
+            <li class="li2"><a href ="Admin.html">Organizer</a></li>
+      	</ul>
+      </div>
+      <div class="div_2">
+      	<form action="login.php" method="post">
+      		<h1>Register Yourself</h1>
+      		<label>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      		<input style="height: 5vh; width: 25vw;font-size: 1.5vw;text-align: center;" type="text" name="fname" placeholder="Enter your name" autofocus required><br><br>
+      		<label>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      		<input style="height: 5vh; width: 25vw;font-size: 1.5vw;text-align: center;" type="email" name="email" placeholder="Enter Your Email" required><br><br>
+      		<label>Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      		<input style="height: 5vh; width: 25vw;font-size: 1.5vw;text-align: center;" type="number" name="age" placeholder="Enter your Age" required><br><br>
+      		<label>Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      		<input style="height: 5vh; width: 25vw;font-size: 1.5vw;text-align: center;" type="password" name="password" placeholder="Enter Your 8 digit Password" required><br><br>
+      		<label>Contact No:&nbsp;&nbsp;</label>
+      		<input style="height: 5vh; width: 25vw;font-size: 1.5vw;text-align: center;" type="number" name="number" placeholder="Enter your Contact Number" required><br><br>
+      		<button style="height: 5vh; width: 25vw;font-size: 1.5vw;text-align: center;" name="register" value="register">Register</button>
+      		<h3>Already Have an account?<a href="Login.html">Login</a></h3>
+      	</form>
+      </div>
+</body>
+</html>
