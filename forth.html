@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AJK Event Management</title>
+    <link rel="stylesheet" type="text/css" href="forthstyle.css">
+</head>
+
+<body>
+    <div class="div22">
+        <div class="div1">
+            <ul>
+                <li class="li1"><a href="ajk.html">Home</a></li>
+                <li class="li2"><a href="forth.html">Reservation</a></li>
+                <li class="li2">Event</li>
+            </ul>
+            <div style="padding-top:1%;padding-left: 30vw;">
+                <fieldset id="dd" style="color: white;width: 35vw;height: 95vh;text-align: center;font-size: 1.8vw;">
+                    <form name="SEND" action = "InsertValues.php" method="POST">
+                        <br>
+
+                        <input style="height: 5vh; width: 25vw;font-size: 1.5vw;text-align: center;" type="text" name="Name" placeholder="Enter your name" required><br><br>
+
+                        <input style="height: 5vh; width: 25vw;font-size: 1.5vw;text-align: center;" type="email" name="Email" placeholder="Enter your Email" required><br><br>
+
+                        <input style="height: 5vh; width: 25vw;font-size: 1.5vw;text-align: center;" type="number" name="PhoneNumber" placeholder="Enter your mobile number" required><br><br>
+
+                        <input style="height: 5vh; width: 25vw;font-size: 1.5vw;text-align: center;" type="text" name="EventName" placeholder="Enter the event name" required><br><br>
+
+                        <input style="height: 5vh; width: 25vw;font-size: 1.5vw;text-align: center;" type="date" name="EventDate" placeholder="Event Date" required><br><br>
+
+                        <input style="height: 5vh; width: 25vw;font-size: 1.5vw;text-align: center;" type="text" name="Location" placeholder="Enter the event location" required><br><br>
+
+                        <input style="height: 5vh; width: 25vw;font-size: 1.5vw;text-align: center;" type="number" name="noOfAttendees" placeholder="Enter the number of Attendees" required><br><br>
+
+                        <textarea style="height: 10vh; width: 25vw;font-size: 1.5vw;text-align: center;" name="Messageh" placeholder="Enter any additional message or requirements"></textarea><br><br>
+
+                        <!-- <button style="height: 5vh; width: 25vw;border: none; text-align: center ; align-items: center;font-size: 1.5vw;color: white;font-weight: bold;background-color: #A67C00;">SEND</button> -->
+                        <input  type="submit" name="submit"></INPUT>
+                        
+                        <br>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
